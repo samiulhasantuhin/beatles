@@ -1,0 +1,217 @@
+/* X-Small devices (portrait phones, less than 576px) */
+@media (min-width: 320px) and (max-width: 575px){
+    /* header  */
+    .header_content h4 {
+        font-size: 10px;
+        margin-top: 7px;
+    }
+    .header_icon ul li a {
+        margin-right: 20px;
+        font-size: 12px;
+    }
+    /* header  */
+    /* navbar  */
+    .nav-link {
+        text-align: center;
+    }
+    /* navbar  */
+    /* banner  */
+    .banner_content {
+        text-align: center;
+    }
+    .banner_content h4 {
+        font-size: 25px;
+    }
+    .banner_content h1 {
+        font-size: 25px;
+    }
+    .banner_content p {
+        font-size: 12px;
+    }
+    .banner_content a {
+        font-size: 14px;
+    }
+    /* banner  */
+    /* about  */
+    .common_heading h4::after {
+        left: 33.7%;
+        width: 47px;
+    }
+    .common_heading h4 span::after {
+        left: 53.3%;
+    }
+    .sm_display_none{
+        display: none;
+    }
+    .about_content p:first-child {
+        text-align: center;
+    }
+    /* about  */
+    /* services  */
+    .service_icon_main {
+        left: 35%;
+    }
+    .service_main {
+        margin-bottom: 25px;
+    }
+    .service_common_heading h4::after {
+        left: 28%;
+    }
+    .service_common_heading h4::before {
+        left: 46.2%;
+    }
+    .service_common_heading h4 span::after {
+        left: 50.4%;
+    }
+    .service_common_heading h4 span::before {
+        left: 53%;
+    }
+    .portfolio_common_heading h4::after {
+        left: 26%;
+    }
+    .portfolio_common_heading h4::before {
+        left: 45.2%;
+    }
+    .portfolio_common_heading h4 span::after {
+        left: 50.4%;
+    }
+    .portfolio_common_heading h4 span::before {
+        left: 53%;
+    }
+    .testimonial_common_heading h4::after {
+        left: 30.7%;
+    }
+    .testimonial_common_heading h4 span::after {
+        left: 53.9%;
+    }
+    .testimonial_common_heading h4 span::before {
+        left: 56.4%;
+    }
+    /* service  */
+    /* team  */
+    .team_title p {
+        margin-bottom: 15px;
+    }
+    /* team  */
+    /* testimonial  */
+    .round_img {
+        margin-top: 15px;
+    }
+    .testimonial_piramid {
+        top: -6%;
+        left: 44%;
+    }
+    /* testimonial */
+    /* footer  */
+    .footer_logo{
+        text-align: center;
+    }
+    .footer_content{
+        text-align: center;
+    }
+    .footer_col_head h4 {
+        text-align: center;
+        margin-top: 25px;
+    }
+    .footer_icon a {
+        margin-left: 20px;
+    }
+    .footer_menu_margin{
+        margin-left: 40px;
+    }
+    .footer_copy_right_text {
+        font-size: 11px;
+    }
+    .footer_copy_right_text span {
+        font-size: 12px;
+    }
+    /* footer  */
+}
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) { 
+    /* navbar  */
+    .nav-link {
+        text-align: center;
+    }
+    /* navbar  */
+    /* banner  */
+    .banner_content {
+        text-align: center;
+    }
+    /* banner  */
+    /* about  */
+    .sm_display_none{
+        display: none;
+    }
+    .about_content p:first-child {
+        margin-top: 14px;
+        margin-bottom: 0px;
+    }
+    .about_content p {
+        line-height: 20px;
+    }
+    /* about  */
+    /* services  */
+    .service_main {
+        margin-bottom: 20px;
+    }
+    /* services  */
+    /* team  */
+    .team_title p {
+        margin-bottom: 15px;
+    }
+    /* team  */
+    /* testimonial  */
+    .testimonial_piramid {
+        top: -6%;
+        left: 42%;
+    }
+    /* testimonial */
+    /* footer  */
+    .footer_logo{
+        text-align: center;
+    }
+    .footer_content{
+        text-align: center;
+    }
+    .footer_col_head h4 {
+        text-align: center;
+        margin-top: 25px;
+    }
+    .footer_icon a {
+        margin-left: 160px;
+    }
+    .footer_menu_margin{
+        margin-left: 135px;
+    }
+    /* footer  */
+}
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px){ 
+    .service_icon_main {
+        left: 30%;
+    }
+    .testimonial_piramid {
+        top: -7%;
+        left: 44%;
+    }
+    
+    
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    
+ }
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    
+ }
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+    
+}
